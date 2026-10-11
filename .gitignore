@@ -73,3 +73,5 @@ dist/
 audio/
 recordings/
 cache/
+
+memory.json

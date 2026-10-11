@@ -16,13 +16,14 @@ class Dashboard:
         # WINDOW
         # ============================================================
         self.root = tk.Tk()
-        self.root.title("AVNI 2.1")
+        self.root.title("AVNI 2.2")
         self.root.geometry("900x700")
         self.root.minsize(1150, 720)
         self.root.configure(bg="#020617")
 
         self.root.bind("<Escape>", lambda e: self.close())
         self.root.bind("<F11>", lambda e: self.toggle_fullscreen())
+        
         self.root.protocol("WM_DELETE_WINDOW", self.close)
 
         # ============================================================
@@ -120,7 +121,7 @@ class Dashboard:
 
         tk.Label(
             logo_frame,
-            text="  2.1",
+            text="  2.2",
             font=("Segoe UI", 18, "bold"),
             fg=self.purple,
             bg=self.bg2
