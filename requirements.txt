@@ -3,3 +3,9 @@ SpeechRecognition
 PyAudio
 pyttsx3
 python-dotenv
+edge-tts
+pygame
+yt-dlp
+Flash
+twilio
+pillow
